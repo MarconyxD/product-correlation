@@ -16,7 +16,7 @@ First, we start by importing Pandas and defining it as pd. This means that every
 import pandas as pd
 ```
 
-To import a file in .xlsx format we use Pandas ExcelFile() function. If you want to use another one, replace the existing one with the desired one. The imported file is saved in the xls variable. Note:
+To import a file in .xlsx format we use Pandas ExcelFile() function. If you want to use another one, replace the existing one with the desired one. The imported file is saved in the xls variable. Note: as already said, Colab deletes attached files after a while, so remember to add the dataset.
 
 ```
 xls = pd.ExcelFile('SupremEats_2011.xlsx')
